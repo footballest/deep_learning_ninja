@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+.pytest_cache/
+
+# VSCode settings (except project-specific ones you check in manually)
+.vscode/settings.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data & models (keep them out of git; use DVC or similar if needed)
+data/raw/
+data/interim/
+data/processed/
+models/

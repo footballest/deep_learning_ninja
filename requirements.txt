@@ -1,0 +1,22 @@
+# Core
+numpy
+pandas
+scipy
+scikit-learn
+
+# Deep learning (pick PyTorch as main stack; you can add TF later if needed)
+torch
+torchvision
+torchaudio
+
+# Plotting / notebooks
+matplotlib
+jupyter
+jupyterlab
+
+# Utilities
+tqdm
+python-dotenv
+
+# Optional: experiment tracking, etc.
+# mlflow
