@@ -1,27 +1,16 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Ignore everything by default
+*
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
+# But don't ignore folders (needed so we can unignore files inside)
+!*/
 
-# Virtual environments
-.venv/
-venv/
-env/
-.env/
-.pytest_cache/
+# Always keep these
+!/.gitignore
+!/README.md
 
-# VSCode settings (except project-specific ones you check in manually)
-.vscode/settings.json
 
-# OS files
-.DS_Store
-Thumbs.db
+# Keep ONLY your scratch files (anywhere)
+!**/scratch_*
 
-# Data & models (keep them out of git; use DVC or similar if needed)
-data/raw/
-data/interim/
-data/processed/
-models/
+# Keep folder placeholders so directories appear on GitHub
+!**/.gitkeep
